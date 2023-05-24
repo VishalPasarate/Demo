@@ -1,0 +1,19 @@
+<h2 style="text-align: center;">ngFor Practice</h2>
+<h2>Name List</h2>
+<ul>
+    <li *ngFor="let data of name">{{data}}</li>
+</ul>
+<hr>
+<div class="container">
+    <h2>User List</h2>
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+    </tr>
+    <tr *ngFor="let user of users">
+        <td>{{user.name}}</td>
+        <td>{{user.age}}</td>
+    </tr>
+</table>
+</div>

@@ -1,0 +1,20 @@
+.row {
+    margin-bottom: 1rem;
+}
+.box{
+    color: rgb(97, 95, 95);
+    font-size: small;
+    
+}
+.form-control{
+    color: rgb(182, 178, 178);
+}
+label{
+    margin-bottom: 1rem;
+}
+.box{
+    background-color: rgb(192, 245, 245);
+}
+.card-body{
+    background-color: rgb(192, 245, 245);
+}

@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+}
+.card{
+    margin: 50px;
+    padding: 30px;
+}
+
+.example-form {
+
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+
+  form{
+    padding: 50px;
+  }

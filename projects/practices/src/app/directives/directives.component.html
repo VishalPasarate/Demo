@@ -1,0 +1,14 @@
+<div class="card">
+    <h2>Directives</h2>
+<p><strong>ngFor Directive</strong> </p>
+<div *ngFor="let item of [1 , 3,10]">
+    <p>Number is :  {{item}}</p>
+</div>
+
+<br>
+<div>
+    <p><strong>ngStyle Directive</strong></p>
+    <input [(ngModel)]="color" /> 
+    <div [ngStyle]="{'color': color}">Change my color</div>
+</div>
+</div>
